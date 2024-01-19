@@ -4,7 +4,7 @@ export default {
     return {
       newTodoText: '',
       todos: [
-        // { isDone: false, text: 'ToDoの文字列'}
+        { isDone: false, text: 'ToDoの文字列'}
       ],
     }
   },
@@ -35,13 +35,3 @@ export default {
     </li>
   </ul>
 </template>
-
-<style>
-body {
-  background-color: #eee;
-}
-
-.todo-done {
-  text-decoration: line-through;
-}
-</style>
